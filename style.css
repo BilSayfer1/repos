@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.bg1{
+    background: url(./img/fon1\ \(2\).png);
+    height: 900px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.menu a{
+    color: white;
+text-decoration: none;
+display: flex;
+
+}
+.menu{
+    padding-top: 15px;
+    text-align: center;
+display: flex;
+gap: 20px;
+}
+.header{
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    gap: 20px;
+    padding-top: 20px;
+ 
+}
+.logo{
+   
+    align-items: center;
+    display: flex;
+  
+}
+.right{
+    padding-top: 15px;
+    display: flex;
+
+    gap: 20px;
+align-items: center;
+text-decoration: none;
+
+
+
+
+}
+
+.new_collection{
+color: white;   
+align-items: center;
+    
+    text-decoration: none;
+    padding-top: 300px;
+    text-align: center;
+
+
+}
+.see_new a{
+color: white;
+text-decoration: none;
+padding-bottom: 40px;
+}
+.item1{
+   width: 120px;
+   height: 1px;
+   background-color: white;
+   padding-left: 300px;
+}
+.line{
+    
+    display: flex;
+    justify-content: center;
+}
+.grid{
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 20px;
+ 
+}
+.news{
+    text-align: center;
+    width: 300px;
+    padding-left: 70px;
+
+}
+.news h3{
+    color: #252525;
+text-align: center;
+
+font-size: 28px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+.news h5{
+    color: #252525;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+
+}
+.news button{
+   
+    text-align: center;
+    background: #E0BEA2;
+    width: 305px;
+    height: 40px;
+    
+}
+input{
+ 
+    padding-top: 20px;
+    width: 305px;
+    height: 40px;
+}
+.footer{
+    background-color: white;
+ padding-bottom: 60px;
+    color: #252525;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+   
+
+ 
+}
+.footer_grid{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    padding-top: 60px;
+    
+}
+
+.footer a{
+    padding-top: 8px;
+    text-decoration: none;
+    
+    color: #252525;
+
+font-size: 16px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+
+}
+.categories {
+padding-top: 20px;
+}
+
+
+
+
+
+
+
